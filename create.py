@@ -22,17 +22,17 @@ ws["C1"] = "Favorite number"
 # Add names to ws
 starting_row = 2
 for name in names:
-    ws.cell(row = starting_row, column = 1). value = name
+    ws.cell(row = starting_row, column = 1).value = name
     starting_row += 1
 
 starting_row = 2
 for color in colors:
-    ws.cell(row = starting_row, column = 2). value = color
+    ws.cell(row = starting_row, column = 2).value = color
     starting_row += 1
 
 starting_row = 2
 for num in nums:
-    ws.cell(row = starting_row, column = 3). value = num
+    ws.cell(row = starting_row, column = 3).value = num
     starting_row += 1
 
 #Use a formula
